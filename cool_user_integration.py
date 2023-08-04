@@ -15,8 +15,16 @@ user_password = pw_input('Enter your password', type=PASSWORD)
 date = pw_input('Enter your birthday', type=DATETIME)
 put_code(f'Your birthday is {date}\U0001F382')
 """
-user_password = pw_input('Enter your password', type=PASSWORD)
-put_success(user_password)
+# user_password = pw_input('Enter your password', type=PASSWORD)
+# put_success(user_password)
 
-popup('popup', 'fffff')
-put_markdown('put markdown')
+# popup('popup', 'fffff')
+# put_markdown('put markdown')
+
+
+
+user_name = pw_input('Введите ваше имя').title()
+put_success(f"Ваше имя: {user_name}")
+
+
+
